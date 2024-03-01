@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css Transform</title> 
+    <style> 
+    div{ 
+        height: 200px; 
+        width: 200px; 
+        background-color: blue; 
+        color: white; 
+       border:2px solid red; 
+       position: absolute; 
+       top: 300px; 
+       left: 500px; 
+      /* transform: rotate(45deg); */  
+     /* rotate: x 90deg;*/ 
+    /* rotate: y 90deg; */
+     /* rotate: z 90deg; */ 
+     /*transform: scale(0.5);*/ 
+     /*transform: scale(2);*/ 
+    /* transform: scale(0.5,2);  
+     transform: scale(2,0.5); 
+     transform: scaleX(2); 
+     transform: scaleY(2);*/ 
+     transition: all 2s ease-in;
+    } 
+    div:hover{ 
+        transform: translateX(-200px); 
+        transform: translate(100px,150px); 
+        transform: skew(45deg); 
+        transform: skew(90deg,45deg);
+    }
+    
+    </style>
+</head>
+<body>
+       
+    <div>This is a div</div>
+</body>
+</html>

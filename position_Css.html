@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css Position Property</title> 
+    <style> 
+     div{  
+        height: 150px; 
+        width: 150px; 
+        background-color: aqua; 
+        border: 2px solid black; 
+        display: inline-block;
+     } 
+     #div1{ 
+        position: static; 
+        top: 50px; 
+        bottom: 50px; 
+        left: 50px; 
+        right: 50px;
+     } 
+     #div2{ 
+        position: relative; 
+        top: 30px;  
+        left: 30px; 
+
+
+     }  
+     #div3{ 
+        position: absolute; 
+        top :10px;  
+        left: 20px;
+     } 
+
+     #div4{ 
+      position: fixed; 
+      left: 10px; 
+      bottom: 0; 
+      width: 100vw;
+     } 
+     #div5{ 
+      position: sticky; 
+      right: 10px; 
+      top: 100px;
+      }
+    </style>
+</head>
+<body> 
+    <h1>Css Position Property</h1>
+    <div id ="div1" style="background-color: blue;">Div1</div> 
+    <div id ="div2" style="background-color: yellow;">Div2</div> 
+    <div id ="div3" style="background-color: blueviolet;">Div3</div> 
+    <div id ="div4">Div4</div> 
+    <div id ="div5" style="background-color: pink;">Div5</div> 
+ 
+
+    
+</body>
+</html>

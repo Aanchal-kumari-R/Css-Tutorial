@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css flex Properties</title>
+</head>
+<body>  
+    <style> 
+        body{ 
+          text-align: center;
+        } 
+        div{ 
+          height: 100px; 
+          width: 50px; 
+          display: inline-block; 
+          border: 2px solid black;
+        }  
+        #container{ 
+          width: 700px; 
+          height: 300px; 
+          display: flex;   
+          flex-direction: row;  
+         /* justify-content: flex-start;*/ 
+         /* justify-content: flex-end; */ 
+          justify-content: center;
+          /*justify-content: space-around;*/ 
+          /*justify-content: space-between; */ 
+          /*justify-content: space-evenly; */ 
+         /* flex-wrap: wrap; */
+          align-items: flex-start; 
+         /* align-content: start;*/
+
+
+
+        } 
+        .box1{ 
+          background-color: aqua; 
+          flex-grow: 2;
+        } 
+        .box2{  
+            height: 200px;
+          background-color: bisque;  
+          /*align-self: flex-end;*/ 
+         /* flex-shrink: 2;*/ 
+         flex-grow: 2;
+        }  
+        .box3{  
+            height: 75px;
+          background-color: blueviolet;
+        } 
+        .box4{ 
+          background-color: brown;
+        } 
+        .box5{ 
+          background-color: yellow; 
+          /*align-self: flex-end;*/
+        }
+  
+  
+      </style>
+  </head>
+  <body>  
+      <h2>Css Flex Properties</h2>
+      <div id ="container"> 
+          <div class="box1">Div 1</div>
+          <div class="box2">Div 2</div>
+          <div class="box3">Div 3</div>
+          <div class="box4">Div 4</div>
+          <div class="box5">Div 5</div>
+      </div>
+      
+
+    
+</body>
+</html>

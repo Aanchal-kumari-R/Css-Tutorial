@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css Flex Direction</title> 
+    <style> 
+      body{ 
+        text-align: center;
+      } 
+      div{ 
+        height: 300px; 
+        width: 500px; 
+        display: inline-block; 
+        border: 2px solid black;
+      }  
+      #container{ 
+        width: 800px; 
+        height: 300px; 
+        display: flex;   
+        /*flex-direction: row-reverse; */ 
+        /*flex-direction: row;*/ 
+       /* flex-direction: column;*/ 
+       flex-direction: column-reverse;
+      } 
+      .box1{ 
+        background-color: aqua;
+      } 
+      .box2{ 
+        background-color: bisque; 
+      }  
+      .box3{ 
+        background-color: blueviolet;
+      } 
+      .box4{ 
+        background-color: brown;
+      } 
+      .box5{ 
+        background-color: yellow;
+      }
+
+
+    </style>
+</head>
+<body>  
+    <h2>Flexbox Direction</h2>
+    <div id ="container"> 
+        <div class="box1">Div 1</div>
+        <div class="box2">Div 2</div>
+        <div class="box3">Div 3</div>
+        <div class="box4">Div 4</div>
+        <div class="box5">Div 5</div>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css Background Size and Image</title> 
+    <style> 
+     #box1{ 
+       background-image: url(image_1.jpg); 
+       background-size: cover; 
+       height: 200px; 
+       width: 200px; 
+       display: inline-block;
+     } 
+     #box2{  
+       background-image: url(image_1.jpg); 
+       background-size: contain;  
+       background-repeat: no-repeat;
+       height: 200px; 
+       width: 200px;  
+       display: inline-block;
+
+     } 
+     #box3{  
+       background-image: url(image_1.jpg); 
+       background-size: auto; 
+       height: 2000px; 
+       width: 2000px; 
+       display: inline-block;
+
+     } 
+     #box4{  
+      background-image: url(image_1.jpg); 
+       background-size: contain; 
+       height: 2000px; 
+       width: 2000px; 
+       display: inline-block;
+     }
+    
+    </style>
+</head>
+<body> 
+    <div id ="box1">Div 1</div> 
+    <div id ="box2">Div 2</div>
+    <div id ="box3">Div 3</div>
+    <div id ="box3">Div 3</div>
+
+    
+</body>
+</html>
